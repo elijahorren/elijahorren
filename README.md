@@ -1,10 +1,8 @@
 ## 👋 Hi, I am Eli.
 
-I am a Sophmore from Charlotte, North Carolina, and enjoy playing Pokemon, producing music, and playing soccer. I am studying Cybersecurity, and would love to do that as a job in the fututre.
+I am a Sophmore from Charlotte, North Carolina, and enjoy playing Pokemon, producing music, and playing soccer. I am studying Cybersecurity, and would love to do that as a job in the future.
 
-Your introduction ...
-
-Here is my Homepage your home page url</td>
+Here is my Homepage!
 
 
 ## 📊 Eli's GitHub
