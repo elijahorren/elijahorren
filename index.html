@@ -4,69 +4,148 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Elijah Orren | CV</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Poppins', sans-serif;
+      background-color: #e6f0ff;
       margin: 0;
       padding: 0;
-      background: #f4f4f4;
-      color: #333;
+      color: #1a1a1a;
     }
+
     header {
-      background: #222;
-      color: white;
+      background-color: #1f1f7a;
+      color: #fff;
       text-align: center;
-      padding: 2rem 0;
+      padding: 2rem 1rem;
+      border-bottom-left-radius: 15px;
+      border-bottom-right-radius: 15px;
     }
+
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+
+    header p {
+      margin: 5px 0 0 0;
+      font-size: 18px;
+      font-weight: 400;
+    }
+
     .container {
-      width: 90%;
-      max-width: 800px;
+      width: 85%;
+      max-width: 900px;
       margin: 2rem auto;
-      background: white;
-      padding: 2rem;
+    }
+
+    section {
+      background-color: #8a9cff;
       border-radius: 12px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
-    h1, h2 {
-      color: #111;
-    }
-    .section {
       margin-bottom: 1.5rem;
+      padding: 20px;
+      color: #fff;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
     }
+
+    details {
+      margin: 10px 0;
+    }
+
+    summary {
+      font-size: 22px;
+      font-weight: 600;
+      cursor: pointer;
+      outline: none;
+    }
+
+    summary::-webkit-details-marker {
+      display: none;
+    }
+
+    p, li {
+      font-size: 18px;
+      line-height: 1.6;
+      text-align: left;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
     a {
-      color: #007acc;
-      text-decoration: none;
+      color: #fff;
+      text-decoration: underline;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 28px;
+      }
+
+      summary {
+        font-size: 18px;
+      }
+
+      p, li {
+        font-size: 16px;
+      }
     }
   </style>
 </head>
 <body>
+
   <header>
     <h1>Elijah Orren</h1>
     <p>College Athlete | Developer | Soccer Coach</p>
   </header>
+
   <div class="container">
-    <div class="section">
-      <h2>About Me</h2>
-      <p>I'm a student-athlete studying abroad with interests in software development and soccer coaching. I enjoy building creative web projects and optimizing training plans.</p>
-    </div>
-    <div class="section">
-      <h2>Skills</h2>
-      <ul>
-        <li>HTML, CSS, JavaScript</li>
-        <li>Python, SQL</li>
-        <li>Soccer coaching, fitness planning</li>
-      </ul>
-    </div>
-    <div class="section">
-      <h2>Experience</h2>
-      <p><strong>Soccer Coach</strong> – Local Youth Academy (2023–Present)</p>
-      <p><strong>Student Developer</strong> – University Projects (2022–Present)</p>
-    </div>
-    <div class="section">
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
-      <p>GitHub: <a href="https://github.com/elijahorren">github.com/elijahorren</a></p>
-    </div>
+
+    <section>
+      <details open>
+        <summary>About Me</summary>
+        <p>Hello! I am Elijah Orren, a student-athlete who studied abroad last year. I am passionate about software development, soccer coaching, and building creative projects that solve real problems.</p>
+      </details>
+    </section>
+
+    <section>
+      <details>
+        <summary>Skills</summary>
+        <ul>
+          <li>Programming: HTML, CSS, JavaScript, Python, SQL</li>
+          <li>Soccer coaching, fitness planning, training program design</li>
+          <li>Problem solving, project management, collaboration</li>
+        </ul>
+      </details>
+    </section>
+
+    <section>
+      <details>
+        <summary>Experience</summary>
+        <p><strong>Soccer Coach</strong> – Skillability Soccer Training (2025–Present)</p>
+        <p><strong>Student Developer</strong> – Computer/Cybersecurity Projects (2025–Present)</p>
+      </details>
+    </section>
+
+    <section>
+      <details>
+        <summary>Education</summary>
+        <p>Midway University – BSc in Computer Science: Expected 2028</p>
+        <p>Studied abroad in Salamanca, Spain – Fall 2024 - Summer 2025</p>
+      </details>
+    </section>
+
+    <section>
+      <details>
+        <summary>Contact</summary>
+        <p>Email: <a href="mailto:elijahorren@gmail.com">elijahorren@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/elijahorren" target="_blank">github.com/elijahorren</a></p>
+      </details>
+    </section>
+
   </div>
+
 </body>
 </html>
