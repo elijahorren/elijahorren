@@ -9,5 +9,5 @@ Here is my Homepage!
 
 | Languages | Page Views | Stats |
 |-----------|------------|-------|
-| ![](https://github-readme-stats.vercel.app/api/top-langs/?username=elijahorren&layout=compact&langs_count=8&theme=dark) | <a href="https://clustrmaps.com/site/1c87u" title="ClustrMaps"><img src="//www.clustrmaps.com/map_v2.png?d=o8OVZBlR6VwusuhjV4r7MSlFM1Q3cuSsNP1Yg-zA_gE&cl=ffffff" width="280" height="230" /></a> | ![](https://github-readme-stats.vercel.app/api?username=elijahorren&count_private=true&show_icons=true&rank_icon=github&theme=dark&include_all_commits=true) |
+| ![](https://github-readme-stats.vercel.app/api/top-langs/?username=elijahorren&layout=compact&langs_count=8&theme=dark) | ![](https://clustrmaps.com/map_v2.png?d=o8OVZBlR6VwusuhjV4r7MSlFM1Q3cuSsNP1Yg-zA_gE&cl=ffffff) | ![](https://github-readme-stats.vercel.app/api?username=elijahorren&count_private=true&show_icons=true&rank_icon=github&theme=dark&include_all_commits=true) |
 
